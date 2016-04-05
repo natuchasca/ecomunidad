@@ -1,0 +1,284 @@
+.container-fluid {
+	max-width: 1280px;
+	width: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+
+/* --- HEADER --- */
+
+img.logo {
+	height: 100px;
+}
+
+.nav ul {
+	list-style: none;
+	position: relative;
+	top: 45px;
+}
+
+.nav li {
+	float: left;
+	font-size: 18px;
+	color: #b0adad;
+	border-right: 1px solid #b0adad;
+	padding: 0 30px 0 30px;
+}
+
+li:last-child {
+	border-right: none;
+}
+
+.banner {
+	height: 400px;
+	width: 100%;
+	max-width: 1280px;
+  	margin: 0 auto;
+  	padding: 0;
+  	position: relative;
+	overflow: hidden;
+}
+
+img.portada {
+	position: absolute;
+	width: 120%;
+	top: -270px;
+	left: -100px;
+
+}
+
+.bajadaimagen {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+  	padding: 0;
+	background-color: silver;
+	height: 200px;
+	text-align: center;
+	padding-top: 70px;
+}
+
+
+
+/* -- MISION Y VISION --- */
+
+.misionyvision {
+	height: 400px;
+	text-align: center;
+	padding-top: 80px;
+}
+
+
+
+/* -- METODOLOGIA --- */
+
+.metodologia {
+	height: 400px;
+	width: 100%;
+	max-width: 1280px;
+  	margin: 0 auto;
+  	padding: 0;
+  	position: relative;
+	overflow: hidden;
+	text-align: center;
+	color: white;
+}
+
+img.metodolog {
+	width: 50%;
+	position: absolute;
+	left: 0;
+}
+
+img.fondo {
+	width: 50%;
+	position: absolute;
+	right: 0;
+}
+
+
+.metodo-text {
+	width: 500px;
+	position: relative;
+	top: 50px;
+	margin: 0 auto;
+}
+
+h2.metodo {
+	margin: 20px 0;
+}
+
+
+/* -- SERIVICIOS --- */
+
+.servicios {
+	height: 1000px;
+	text-align: center;
+	padding-top: 100px;
+}
+
+.servicios img {
+	margin-top: 100px;
+}
+
+.servicios p {
+	margin-top: 30px;
+}
+
+
+
+/* -- PROYECTOS --- */
+
+.proyectos {
+	width: 100%;
+	max-width: 1280px;
+  	margin: 0 auto;
+	background-color: olive;
+	text-align: left;
+	color: white;
+	padding: 40px 30px;
+}
+
+.proyectos h2 {
+	position: relative;
+	left: 0;
+	margin: 30px 0;
+}
+
+.proyectos img {
+	width: 600px;
+}
+
+div.texto-proyecto {
+	margin: 0 auto;
+	text-align: center;
+}
+
+h2.nombre-proyecto {
+	padding-top: 30px;
+}
+
+
+
+/* -- EQUIPO --- */
+
+.equipo {
+	width: 100%;
+	max-width: 1280px;
+	margin: 0 auto;
+	text-align: center;
+	padding: 50px 0 50px 30px;
+}
+
+img.retrato {
+	width: 250px;
+	height: 250px;
+	border-radius: 600px;
+	overflow: hidden;
+}
+
+h2.nombre {
+	margin-top: 40px;
+}
+
+img.icon {
+	width: 40px;
+	height: 40px;
+	border-radius: 10px;
+	margin-top: 40px;
+}
+
+/* --- BLOG --- */
+
+.blog {
+	width: 100%;
+	max-width: 1280px;
+	height: 500px;
+  	margin: 0 auto;
+  	position: relative;
+  	overflow: hidden;
+}
+
+.blog h2 {
+	position: relative;
+	left: 30px;
+	top: 30px;
+	margin-bottom: 20px;
+}
+
+img.background {
+	width: 100%;
+	position: absolute;
+}
+
+div.blog-post {
+	width: 300px;
+	height: 400px;
+	position: relative;
+	padding: 30px 20px;
+	margin:0 auto;
+}
+
+img.imagen-post {
+	width: 300px;
+}
+
+
+
+/* --- CONTACTO --- */
+
+.contacto {
+	width: 100%;
+	max-width: 1280px;
+  	margin: 0 auto;
+	background-color: grey;
+	padding: 40px 40px;
+	height: 400px;
+	text-align: center;
+}
+
+table {
+	border: 1px solid white;
+	margin: 0 auto;
+}
+
+.contacto td {
+	font-size: 30px;
+	color: white;
+	padding: 30px 50px;
+	margin: 0 auto;
+	border: 1px solid white;
+}
+
+.contacto img {
+	width: 180px;
+	height: 180px;
+	position: relative;
+	display: block;
+	margin-top: 20px;
+}
+
+
+/* --- FOOTER --- */
+
+.footer {
+	width: 100%;
+	max-width: 1280px;
+  	margin: 0 auto;
+  	left: 0;
+	height: 250px;
+	padding: 100px 30px;
+	background-color: #DBDDDD;
+	color: grey;
+}
+
+.footer a {
+	text-decoration: none;
+	color: #FFB73D;
+}
+
+p.text-right:first-child {
+	white-space: pre-line;
+	text-align: right;
+	font-weight: bold;
+}
